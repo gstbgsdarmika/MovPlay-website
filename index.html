@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/image/icons/logo icon.svg" type="image/x-icon">
+    <title>MovPlay</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/responsif.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav id="navbar">
+            <div class="container navbar-container">
+                <a href="index.html"><img src="assets/image/icons/logo.svg" alt="Logo MovPlay"></a>
+                <ul class="navbar-menu">
+                    <li><a class="navbar-link navbar-active" href="#">HOME</a></li>
+                    <li><a class="navbar-link" href="#layanan">UPCOMING</a></li>
+                    <li><a class="navbar-link" href="#psikolog">POPULAR</a></li>
+                    <li><a class="navbar-link" href="#psikolog">TRENDING</a></li>
+                    <li><a class="btn1" href="#daftar">SIGN IN</a></li>
+                </ul>
+                <button id="open-menu-navbar"><i class="fa-solid fa-bars"></i></button>
+                <button id="close-menu-navbar"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+    <main>
+    <!-- Hero -->
+    <article>
+        <section id="hero">
+            <div class="container">
+                <div class="flex-column">
+                    <div class="flex-row">
+                        <div class="hero-content content">
+                            <h1>Watching Unlimited Movies,<span class="color-acsent"> TV Shows & More.</span></h1>
+                            <div class="detailMovie">
+                                <a href="#" class="btn2">PG-13</a>
+                                <a href="#" class="btn3">4K</a>
+                                <a href="#">Fantasy,</a>
+                                <a href="#">Action,</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                            <button href="#" class="btn4"> WATCH NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <!-- End Hero -->
+    <!-- Layanan -->
+    <article>
+        <section id="layanan">
+            <div class="container">
+                <div class="description">
+                    <h1>All the movies you want, in one place</h1>
+                    <p>Find the type of movie you want to watching</p>
+                    <div id="genres">
+                    </div>
+                    <form class="search-bar" id="searchForm">
+                        <input type="text" placeholder="Search.." name="search" id="search" >
+                        <button type="submit">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.375 12.1875C24.375 14.877 23.502 17.3613 22.0312 19.377L29.4492 26.8008C30.1816 27.5332 30.1816 28.7227 29.4492 29.4551C28.7168 30.1875 27.5273 30.1875 26.7949 29.4551L19.377 22.0312C17.3613 23.5078 14.877 24.375 12.1875 24.375C5.45508 24.375 0 18.9199 0 12.1875C0 5.45508 5.45508 0 12.1875 0C18.9199 0 24.375 5.45508 24.375 12.1875ZM12.1875 20.625C16.8457 20.625 20.625 16.8457 20.625 12.1875C20.625 7.5293 16.8457 3.75 12.1875 3.75C7.5293 3.75 3.75 7.5293 3.75 12.1875C3.75 16.8457 7.5293 20.625 12.1875 20.625Z" fill="#EDA10F"/>
+                        </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="flex-column">
+                    <div class="flex-row">
+                        <div  id="upcaming" class="upcaming">
+                            <h2>Upcoming Movies</h2>
+                            <p>Find the movie you've been waiting for here</p>
+                            <a href="#" class="btn5 btn-active">Streaming</a>
+                            <a href="#" class="btn5">On TV</a>
+                            <a href="#" class="btn5">For Rent</a>
+                            <a href="#" class="btn5">In Theaters</a>
+                            <div class="movies" id="movies"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <!-- End Layanan -->       
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="flex-column">
+                <div class="flex-row">
+                    <div class="footerAddr content">
+                        <div class="logoFooter">
+                            <a href="#"><img src="assets/image/icons/logo 2.svg" alt="logo MovPlay"></a>
+                        </div>
+                        <p>To get the latest information about us, you can visit our social media accounts</p>
+                        <div class="sosial-media">
+                            <a href="#"><img src="assets/image/icons/Facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="assets/image/icons/Twitter.svg" alt="Twitter"></a>
+                            <a href="#"><img src="assets/image/icons/Instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="assets/image/icons/Pinterest.svg" alt="Pinterest"></a>
+                            <a href="#"><img src="assets/image/icons/WhatsApp.svg" alt="Pinterest"></a>
+                        </div>
+                        <div class="download-app">
+                            <a href="#"><img src="assets/image/icons/play store.svg" alt="play store"></a>
+                            <a href="#"><img src="assets/image/icons/app store.svg" alt="app store.svg"></a>
+                        </div>
+                    </div>
+                    <div class="footerLink content">
+                        <ul class="footerNav"> 
+                            <li class="footerItem">
+                                <h3 class="footerTitle">Support</h3>
+                                <ul class="footerUl">
+                                    <li>
+                                        <a href="#">Privacy & Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Term & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support System</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footerItem">
+                                <h3 class="footerTitle">Our Services</h3>
+                                <ul class="footerUl">
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Design Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">API Services</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footerItem">
+                                <h3 class="footerTitle">Contact Us</h3>
+                                <ul class="footerUl">
+                                    <li>
+                                        <a href="#">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="legal">
+            <hr>
+            <p>Copyright © 2022 All Rights Reserved By TahapanBelajar.Id</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- My Script -->
+    <script src="src/style/script.js"></script>
+</body>
+</html>

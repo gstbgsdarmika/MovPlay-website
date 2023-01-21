@@ -1,0 +1,278 @@
+/* Responsive Tablets*/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Navbar */
+    nav button {
+        display: inline-block;
+        font-size: 1.6rem;
+        color: #EDA10F;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    nav button#close-menu-navbar{
+        display: none;
+    }
+
+    .navbar-menu{
+        position: fixed;
+        top: 6rem;
+        right: 7%;
+        height: fit-content;
+        width: 18rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+    }
+
+    .navbar-menu li {
+        width: 100%;
+        height: 5.8rem;
+    }
+
+    .navbar-menu li a{
+        background: #20212B;
+        box-shadow: -2rem 3rem 5rem rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        color: #fff;
+    }
+
+    .btn1{
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .navbar-menu li a:hover{
+        background-color: #EDA10F;
+        color: #F6F5F3;
+    }
+    /* End Navbar */
+
+    /* Hero */
+    #hero{
+        padding-top: 100px;
+        min-height: 50vh;
+    }
+
+    #hero h1{
+        font-size: 24px;
+        justify-items: center;
+    }
+
+    .detailMovie {
+        display: none;
+    }
+
+    /* End Hero */
+
+    /* Introduction */
+    #intro {
+        padding-top: 50px;
+    }
+    .intro-img img{
+        margin-top: 30px;
+    }
+    
+    .intro-img2 img {
+        margin-top: -10px;
+    }
+
+    .intro-content{
+        margin-top: 150px;
+    }
+    /* End Introduction */
+
+    /* Layanan */
+    #layanan {
+        padding-top: 100px;
+    }
+
+    .services {
+        margin: 50px 0;
+        gap: 3rem;    
+    }
+
+    .service { 
+        width: 190px;
+        cursor: pointer;
+        text-align: center;
+    }
+    /* End Layanan */
+
+    /* Psychologist */
+    #psikolog {
+        padding-top: 90px;
+    }
+
+    .psychologists {
+        margin: 50px 0;
+        gap: 1rem; 
+    }
+
+    .card-psychologist {  
+        padding: 30px 80px;
+    }
+    /* End Psychologist */
+
+    /* Biodata */
+    #biodata{
+        padding-top: 60px;
+    }
+    
+    #biodata h4{
+        font-size: 16px;
+    }
+    
+    .biodata-image img{
+        width: 80%;
+        margin-right: 30px;
+    }
+    /* End Biodata */
+
+    .card-movie {
+        margin: auto;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px;
+    }
+    /* End Footer */
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 600px){
+    .flex-row {
+        flex-direction: column;
+    } 
+    .container{
+        width: 94%;
+    }
+    .content{
+        flex-basis: 100%;
+    }
+    .nav-menu{
+        right: 10%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    /* Hero */
+    #hero {
+        text-align: center;
+    }
+
+    .hero-content{
+        order: 1;
+        text-align: center;
+    }
+
+    .hero-content p{
+        text-align: center;
+    }
+    
+    /* End Hero */
+
+    /* Layanan */
+    #layanan {
+        padding-top: 100px;
+    }
+
+    #layanan p{
+        font-size: 14px;
+    }
+
+    .description br {
+        display: none;
+    }
+
+    .services { 
+        flex-direction: column;
+    }
+
+    .service { 
+        margin: auto;
+        width: 190px;
+        cursor: pointer;
+        text-align: center;
+    }
+    /* End Layanan */
+
+    /* Psychologist */
+    .description p{
+        font-size: 14px;
+    }
+
+    .psychologists {
+        flex-direction: column;
+    }
+
+    .psychologist-info h2 {
+        font-size: 20px;
+    }
+
+    .psychologist-info h3 {
+        font-size: 16px;
+    }
+    /* End Psychologist */
+
+    /* Biodata */
+    #biodata {
+        padding-top: 20px;
+    }
+
+    .biodata-info{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    #biodata h1{
+        text-align: center;
+        color: #fff;
+        padding-top: 30px;
+    }
+
+    .biodata-info br{
+        display: none;
+        margin-bottom: 30px;
+    }
+
+    .biodata-image img{
+        width: 80%;
+        margin-right: 0px;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+    /* End Biodata */
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 10px;
+    }
+    /* End Footer */
+}
+
